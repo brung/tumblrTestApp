@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "TMTumblrAuthenticator.h"
+
+#define tumberOAuthConsumerKey @"rgbQgRen85njpSW4sbAZuA2yd1Yh4S5pRnxFWHZEyR8U5xFehg"
+#define tumberOAuthConsumerSecret @"qB5itiIeWdt9yyhNMhgBEUhvDsTh4RrGR0OtyqqhYCtWkDgqJu"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [TMTumblrAuthenticator sharedInstance].OAuthConsumerKey = tumberOAuthConsumerKey;
+    [TMTumblrAuthenticator sharedInstance].OAuthConsumerSecret = tumberOAuthConsumerSecret;
     return YES;
 }
 

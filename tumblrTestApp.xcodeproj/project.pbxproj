@@ -149,6 +149,7 @@
 				B85DDF0F1E36C9BD00FC37E8 /* Assets.xcassets */,
 				B85DDF111E36C9BD00FC37E8 /* LaunchScreen.storyboard */,
 				B85DDF141E36C9BD00FC37E8 /* Info.plist */,
+				B8845C0E1E36CFDD00C3C5D9 /* Network */,
 				B85DDF031E36C9BD00FC37E8 /* Supporting Files */,
 			);
 			path = tumblrTestApp;
@@ -178,6 +179,13 @@
 				B85DDF2A1E36C9BE00FC37E8 /* Info.plist */,
 			);
 			path = tumblrTestAppUITests;
+			sourceTree = "<group>";
+		};
+		B8845C0E1E36CFDD00C3C5D9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -700,6 +708,7 @@
 				B85DDF2F1E36C9BE00FC37E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B85DDF301E36C9BE00FC37E8 /* Build configuration list for PBXNativeTarget "tumblrTestAppTests" */ = {
 			isa = XCConfigurationList;
@@ -708,6 +717,7 @@
 				B85DDF321E36C9BE00FC37E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B85DDF331E36C9BE00FC37E8 /* Build configuration list for PBXNativeTarget "tumblrTestAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -716,6 +726,7 @@
 				B85DDF351E36C9BE00FC37E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
